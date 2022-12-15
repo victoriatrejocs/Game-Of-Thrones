@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="got-characters.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/938ee9b587.js" crossorigin="anonymous"></script>
+<link rel="icon" href="wolf.png" type="image/x-icon">
+    <title>Game of Thrones</title>
+</head>
+<img id="header" src="header3.jpeg">
+<body>
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <input type="text" placeholder="Search for a character..." id="searchBar" />
+        <button onclick="searchCharacters()">Search</button>
+        <button onclick="resetData()">Reset</button>
+        <select name="sort" id="sort" onchange="orderCharacters()">
+        <option value="none">Unordered</option>
+        <option value="aToZ">A-Z</option>
+        <option value="zToA">Z-A</option>
+        </select>
+    </div>
+
+    <div id="characters-wrapper"></div>
+    <img id="valar"src="valar.jpg">
+    <script src="got-characters.js"></script>
+</body>
+</html>

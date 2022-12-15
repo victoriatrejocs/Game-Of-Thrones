@@ -1,0 +1,101 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+
+    .row {margin: 10px 0 -5px 0;}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.card {
+text-align: center;
+background-image: url(./bgd9.jpg);
+height: 25.5rem;
+border-radius: 20px;
+color: white;
+margin-top: 2rem;
+}
+
+.card h2{
+    padding: 8px;
+}
+
+.card h4{
+    padding:8px;
+}
+
+
+body{
+    font-family: 'Cinzel', serif;
+    background-color: black;
+}
+
+#header{
+    width: 100vw;
+}
+
+.fa-solid{
+    color:black;
+    position: absolute;
+    left: 10.5rem;
+    top:1.5rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 40rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+}
+
+button{
+    height: 3rem;
+    margin-left: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+}
+
+button:hover{
+    background-color:#223846;
+    cursor: pointer;
+    color: white;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+select{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+}
+
+#valar{
+    width: 100vw;
+}
